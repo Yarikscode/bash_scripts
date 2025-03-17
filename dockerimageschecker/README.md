@@ -24,7 +24,7 @@ systemctl start findImage.timer
 
 ## 🚀 Запуск от user
 
-Расположите файлы в папке home/<user>/.config/systemd/ust/
+Расположите файлы в папке home/user/.config/systemd/ust/
 
 Запуск осуществляется от <usr>:
 
