@@ -1,2 +1,3 @@
 # bash_scripts
-bash_scripts
+
+*В данном репозитории располагаются bash скрипты*
