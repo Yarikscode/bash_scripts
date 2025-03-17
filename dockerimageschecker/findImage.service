@@ -1,0 +1,13 @@
+# Made by Yaroslav
+#
+
+[Unit]
+Description= checker latest docker images
+Wants=dockerImages.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/yaroslav/script_dockerimagecheck/version_image.sh nginx hello-world
+
+[Install]
+WantedBy=multi-user.target
